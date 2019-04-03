@@ -25,7 +25,7 @@ canvas.addEventListener('mouseup', () => {
     points.length = 0;
 });
 canvas.addEventListener('mouseout', () => {
-    Push();
+    // Push();
     isDrawing = false;
     ctx.shadowBlur = 0;
     points.length = 0;
@@ -272,6 +272,8 @@ function Undo(){
         Step--;
         var canvasPic = new Image();
         canvasPic.src = PushArray[Step];
+        console.log(Step);
+        // console.log(PushArray[Step]);
         canvasPic.onload = function () { ctx.drawImage(canvasPic, 0, 0); }
     }
 }
