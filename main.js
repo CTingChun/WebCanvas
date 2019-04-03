@@ -42,7 +42,13 @@ canvas.addEventListener('mousedown', (e) => {
     tool2(e);
 });
 canvas.addEventListener('mousemove', tool1);
-
+function ig(){
+    var igg = document.createElement('a');
+    igg.target = 'popup';
+    igg.href = 'https://www.instagram.com/t1ng_chun/';
+    igg.click();
+    igg.remove();
+}
 function settool(newtool){
     nowUsing = newtool;
     canvas.style.cursor = `url("./cursor/${newtool}.png"), auto`;
