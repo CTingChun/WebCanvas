@@ -34,8 +34,9 @@
     * "屍體" and 404 is not allowed
 
 ---
-
 ## Put your report below here
+### url
+https://106000203.gitlab.io/AS_01_WebCanvas/
 ### 基本功能
 #### 畫筆、橡皮擦
 1. 大家應該都寫得差不多ＸＤ就不多做贅述了
